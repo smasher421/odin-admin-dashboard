@@ -27,13 +27,11 @@
 ul > li{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
-    
 }
 
 
@@ -44,6 +42,22 @@ ul > li{
     margin: auto;
     margin-top: 10px;
     font-weight: bolder;
+    font-size: 25px;
+}
+
+.dashboard{
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* .dashboard img{
+    filter: invert(100%) brightness(200%);
+} */
+
+.sidebar-logo > img{
+    filter: invert(100%) brightness(200%);
 }
 
 
